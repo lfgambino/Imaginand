@@ -1,0 +1,838 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"f",
+				"fon	CSS - font: 1em/1.5 sans-serif;"
+			],
+			[
+				"ele",
+				"elementId"
+			],
+			[
+				"arg",
+				"args"
+			],
+			[
+				"mo",
+				"modulos"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"modu",
+				"modulo"
+			],
+			[
+				"ti",
+				"tipo"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"rgb",
+				"rgba	rgba()"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"fo",
+				"footer	Tag"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"tet",
+				"text-decoration"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"ba",
+				"background-attachment"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"zi",
+				"z-index"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"rgba",
+				"rgba()"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"s",
+				"scroll"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"tra",
+				"transition	CSS - transition: ;"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"bot",
+				"bottom"
+			],
+			[
+				"fix",
+				"fixed"
+			],
+			[
+				"rb",
+				"rgba()"
+			],
+			[
+				"hid",
+				"hidden"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"top",
+				"top"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"1",
+				"1em"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"non",
+				"none"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"n",
+				"normal"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"fi",
+				"fix	CSS - position: fixed;"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"hea",
+				"header	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/wamp/www/mejorandola/practicas/javascript/index.html",
+			"settings":
+			{
+				"buffer_size": 872,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/wamp/www/mejorandola/practicas/javascript/css/main.css",
+			"settings":
+			{
+				"buffer_size": 503,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/mejorandola/practicas/javascript/js/main.js",
+			"settings":
+			{
+				"buffer_size": 52,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/wamp/www/mejorandola/practicas/javascript/js/app.js",
+			"settings":
+			{
+				"buffer_size": 267,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/wamp/www/mejorandola/practicas/javascript/js/core/eventos.js",
+			"settings":
+			{
+				"buffer_size": 473,
+				"line_ending": "Unix",
+				"name": "eventos.js"
+			}
+		},
+		{
+			"file": "/C/wamp/www/mejorandola/practicas/javascript/js/modulos/contador.js",
+			"settings":
+			{
+				"buffer_size": 393,
+				"line_ending": "Unix",
+				"name": "contador.js"
+			}
+		},
+		{
+			"file": "/C/wamp/www/mejorandola/practicas/javascript/js/modulos/ingresar.js",
+			"settings":
+			{
+				"buffer_size": 1016,
+				"line_ending": "Windows",
+				"name": "ingresar.js"
+			}
+		},
+		{
+			"file": "/C/wamp/www/mejorandola/practicas/javascript/js/core/sandbox.js",
+			"settings":
+			{
+				"buffer_size": 499,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "body\n	font-family Verdana\n	overflow-wrap: break-word\n	word-wrap: break-word\n	line-height: 1.5\n	display block\n	float left\n	background #fff\n	letter-spacing 1em\n	",
+			"file": "css/test.styl",
+			"file_size": 165,
+			"file_write_time": 130077310209423279,
+			"settings":
+			{
+				"buffer_size": 159,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"selected_items":
+		[
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"styl",
+				"Set Syntax: Stylus"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"sty",
+				"Set Syntax: Stylus"
+			],
+			[
+				"Package Cont",
+				"Package Control: Discover Packages"
+			],
+			[
+				"javas",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"alig",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"align",
+				"Preferences: Alignment File Settings – Default"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"emme",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"jque",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"java",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"jq",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"filed",
+				"FileDiffs: Menu"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"Closure Linter: Run Closure Linter"
+			],
+			[
+				"htm",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"stylu",
+				"Set Syntax: Stylus"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/pruebasnode/package.json",
+		"/C/wamp/www/imaginand/tets.php",
+		"/C/wamp/www/imaginand/css/test.cssus",
+		"/C/wamp/www/imaginand/css/test.stylus",
+		"/C/Users/Andres/AppData/Roaming/Sublime Text 2/Packages/User/Stylus.sublime-build",
+		"/C/wamp/www/mejorandola/practicas/javascript/js/modulos/sandbox.js",
+		"/C/wamp/www/mejorandola/practicas/javascript/js/libs/app.js",
+		"/C/wamp/www/pruebasdjango/hola.py",
+		"/C/wamp/www/pruebasdjango/app/urls.py",
+		"/C/wamp/www/pruebasdjango/demo/models.py",
+		"/C/wamp/www/pruebasdjango/app/settings.py",
+		"/C/wamp/www/imaginand/css/main.css",
+		"/C/wamp/www/mejorandola/practicas/phonegap/02/index.html",
+		"/C/wamp/www/imaginand/modules/footer.php",
+		"/C/wamp/www/imaginand/modules/head.php",
+		"/C/wamp/www/imaginand/modules/header.php",
+		"/C/wamp/www/imaginand/index.php",
+		"/C/wamp/www/mejorandola/practicas/html5ycss3/02/index.html",
+		"/C/wamp/www/mejorandola/practicas/html5ycss3/02/estilos.css",
+		"/C/wamp/www/mejorandola/practicas/html5ycss3/02/main.js",
+		"/C/Users/Andres/AppData/Roaming/Sublime Text 2/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/C/Users/Andres/AppData/Roaming/Sublime Text 2/Packages/Terminal/Base File.sublime-settings",
+		"/C/wamp/www/mejorandola/practicas/html5ycss3/01/script.js",
+		"/C/wamp/www/mejorandola/practicas/html5ycss3/01/estilos.css",
+		"/C/wamp/www/mejorandola/practicas/html5ycss3/01/index.html",
+		"/C/wamp/www/mejorandola/practicas/html5ycss3/estilos.css",
+		"/C/wamp/www/mejorandola/practicas/html5ycss3/index.html",
+		"/C/wamp/www/mejorandola/practicas/intro/01/index.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"href",
+			";\n",
+			"');\n",
+			"}\n",
+			"{",
+			"article.aboutme",
+			"firstc",
+			"first-"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\n{",
+			"#aboutme"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/wamp/www/mejorandola/practicas/javascript/index.html",
+					"settings":
+					{
+						"buffer_size": 872,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								270,
+								270
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/wamp/www/mejorandola/practicas/javascript/css/main.css",
+					"settings":
+					{
+						"buffer_size": 503,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								133,
+								133
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/wamp/www/mejorandola/practicas/javascript/js/main.js",
+					"settings":
+					{
+						"buffer_size": 52,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								51,
+								51
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/wamp/www/mejorandola/practicas/javascript/js/app.js",
+					"settings":
+					{
+						"buffer_size": 267,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								47
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/wamp/www/mejorandola/practicas/javascript/js/core/eventos.js",
+					"settings":
+					{
+						"buffer_size": 473,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								357,
+								357
+							]
+						],
+						"settings":
+						{
+							"auto_name": "eventos.js",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/wamp/www/mejorandola/practicas/javascript/js/modulos/contador.js",
+					"settings":
+					{
+						"buffer_size": 393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								393,
+								393
+							]
+						],
+						"settings":
+						{
+							"auto_name": "contador.js",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/wamp/www/mejorandola/practicas/javascript/js/modulos/ingresar.js",
+					"settings":
+					{
+						"buffer_size": 1016,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								553,
+								610
+							]
+						],
+						"settings":
+						{
+							"auto_name": "ingresar.js",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/wamp/www/mejorandola/practicas/javascript/js/core/sandbox.js",
+					"settings":
+					{
+						"buffer_size": 499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								446,
+								446
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "css/test.styl",
+					"settings":
+					{
+						"buffer_size": 159,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								159
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/editors/Stylus.tmbundle/Syntaxes/Stylus.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/wamp/www/mejorandola/practicas/intro/01/index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
