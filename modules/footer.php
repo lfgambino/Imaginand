@@ -3,7 +3,6 @@
 <footer>
     
     <div id="contact">
-<!-- 		<img id="bg" src="img/footer_bg.jpg" /> -->
 		<h2><a href="contact.php">Contacto</a></h2>
 		<div class="social">
  			<a href="http://www.linkedin.com/in/andressaanarvaez" target="_blank" class="linkedin"></a>

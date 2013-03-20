@@ -4,7 +4,7 @@
 <head>
 	
     <!-- ************* META *************** -->
-    <meta charset="iso-8859-16" />
+    <meta charset="iso-8859-1" />
     <meta name="description"        content="Diseño Web a medida. Websites, Blogs, Portfolios, Foros, lo que necesites lo hacemos." />
     <meta name="keywords"           content="web design diseño css css3 html xhtml html5 php ruby programmer programador developer desarrollo desarrollador diseñador freelance" />
     <meta name="title"              content="Imaginand" />

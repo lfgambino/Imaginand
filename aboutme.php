@@ -10,6 +10,10 @@
 <div id="container_bg_1">
 <div id="container_bg_2">
 
+    <!-- NAVBAR:INI -->
+    <?php include("modules/navbar.php") ?>
+    <!-- NAVBAR:FIN -->
+
     <!-- CONTAINER:INI --> 
     <div id="container">
     	

@@ -10,6 +10,10 @@
 <div id="container_bg_1">
 <div id="container_bg_2">
 
+    <!-- NAVBAR:INI -->
+    <?php include("modules/navbar.php") ?>
+    <!-- NAVBAR:FIN -->
+
     <!-- CONTAINER:INI -->
     <div id="container">
     	
@@ -19,46 +23,39 @@
         
         <!-- ARTICLE:INI -->
         <section id="home">
-            
-            <!-- ABOUT -->
+
+            <!-- ABOUTME -->
             <article>
-                <div class="content">
-                    <a href="aboutme.php">
-                        <img src="img/pic_01.jpg" />
-                        <span class="frame"></span>
-                    </a>
-                </div>
-                <h2>
-                    <a href="aboutme.php">Sobre mí</a>
-                </h2>
+                <a href="aboutme.php">
+                    <div class="shadow"><img src="img/pic_01.jpg" /></div>
+                    <div class="info">
+                        <h2>Sobre mí</h2>
+                        <p>Conóceme! El mejor servicio a un click!</p>
+                    </div>
+                </a>
             </article>
-            
+
             <!-- PORTFOLIO -->
             <article>
-                <div class="content">
-                    <a href="#">
-                        <img src="img/pic_02.jpg" />
-                        <span class="frame"></span>
-                    </a>
-                </div>
-                <h2>
-                    <a href="#">Portfolio</a>
-                </h2>
+                <a href="portfolio.php">
+                    <div class="shadow"><img src="img/pic_02.jpg" /></div>
+                    <div class="info">
+                        <h2>Portfolio</h2>
+                        <p>Échale un vistazo a mi trabajo.</p>
+                    </div>
+                </a>
             </article>
-            
-            <!-- SERVICES -->
+
+            <!-- SERVICIOS -->
             <article>
-                <div class="content">
-                    <a href="#">
-                        <img src="img/pic_03.jpg" />
-                        <span class="frame"></span>
-                    </a>
-                </div>
-                <h2>
-                    <a href="#">Servicios</a>
-                </h2>
+                <a href="services.php">
+                    <div class="shadow"><img src="img/pic_03.jpg" /></div>
+                    <div class="info">
+                        <h2>Servicios</h2>
+                        <p>¿Qué necesitas? ¡puedo ayudarte!</p>
+                    </div>
+                </a>
             </article>
-            
             
         </section>
         <!-- ARTICLE:END -->
