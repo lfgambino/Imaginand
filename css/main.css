@@ -54,28 +54,31 @@ footer #contact .social a {
   margin-right: 3%;
 }
 footer #contact .email {
-  background: url("../img/email.png") no-repeat;
+  background: url("../img/contact_sprite.png") no-repeat;
+  background-position: 0px 0px;
   height: 73px;
   width: 72px;
 }
 footer #contact .email:hover {
-  background: url("../img/email_o.png") no-repeat;
+  background-position: -72px 0px;
 }
 footer #contact .linkedin {
-  background: url("../img/linkedin.png") no-repeat;
+  background: url("../img/contact_sprite.png") no-repeat;
+  background-position: 0px -73px;
   height: 65px;
   width: 64px;
 }
 footer #contact .linkedin:hover {
-  background: url("../img/linkedin_o.png") no-repeat;
+  background-position: -64px -73px;
 }
 footer #contact .twitter {
-  background: url("../img/twitter.png") no-repeat;
+  background: url("../img/contact_sprite.png") no-repeat;
+  background-position: 0px -138px;
   height: 65px;
   width: 64px;
 }
 footer #contact .twitter:hover {
-  background: url("../img/twitter_o.png") no-repeat;
+  background-position: -64px -138px;
 }
 header {
   color: #464b51;
@@ -330,21 +333,39 @@ nav ul > li a {
   }
   footer #contact .email,
   footer #contact .email:hover {
-    background-size: 60px;
+    background-size: 120px;
     height: 60px;
-    width: 61px;
+    width: 60px;
+  }
+  footer #contact .email {
+    background-position: 0px 0px;
+  }
+  footer #contact .email:hover {
+    background-position: -60px 0px;
   }
   footer #contact .linkedin,
   footer #contact .linkedin:hover {
-    background-size: 50px;
-    height: 50px;
+    background-size: 114px;
+    height: 51px;
     width: 51px;
+  }
+  footer #contact .linkedin {
+    background-position: 0px -58px;
+  }
+  footer #contact .linkedin:hover {
+    background-position: -51px -58px;
   }
   footer #contact .twitter,
   footer #contact .twitter:hover {
-    background-size: 50px;
-    height: 50px;
+    background-size: 114px;
+    height: 51px;
     width: 51px;
+  }
+  footer #contact .twitter {
+    background-position: 0px -109px;
+  }
+  footer #contact .twitter:hover {
+    background-position: -51px -109px;
   }
   #home > article .info h2 {
     font-size: 2.2em;
@@ -359,7 +380,7 @@ nav ul > li a {
     font-size: 2.5em;
   }
   header h1 {
-    font-size: 3.8em;
+    font-size: 3.6em;
   }
   header h2 {
     font-size: 1.5em;
@@ -375,6 +396,12 @@ nav ul > li a {
   }
   footer #contact {
     padding-bottom: 8%;
+  }
+  header h1 {
+    font-size: 3.3em;
+  }
+  header h2 {
+    font-size: 1.3em;
   }
   nav ul > li {
     font-size: 0.9em;
@@ -419,7 +446,7 @@ nav ul > li a {
     padding-bottom: 0.1em;
   }
   header h2 {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
   #home > article .info h2 {
     margin: 10% 0 2% 2%;

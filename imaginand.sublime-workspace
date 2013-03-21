@@ -4,6 +4,110 @@
 		"selected_items":
 		[
 			[
+				"con",
+				"contact"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"border",
+				"border-box"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"upp",
+				"uppercase"
+			],
+			[
+				"li",
+				"li"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"color",
+				"color1"
+			],
+			[
+				"colo",
+				"color1"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"au",
+				"auto"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"ho",
+				"hover"
+			],
+			[
+				"lin",
+				"linkedin"
+			],
+			[
+				"cen",
+				"center"
+			],
+			[
 				"f",
 				"fon	CSS - font: 1em/1.5 sans-serif;"
 			],
@@ -32,32 +136,16 @@
 				"tipo"
 			],
 			[
-				"text",
-				"text-align"
-			],
-			[
 				"bor",
 				"border"
-			],
-			[
-				"mar",
-				"margin"
 			],
 			[
 				"rgb",
 				"rgba	rgba()"
 			],
 			[
-				"fon",
-				"font-family"
-			],
-			[
 				"bac",
 				"background"
-			],
-			[
-				"li",
-				"link	Tag"
 			],
 			[
 				"fo",
@@ -88,28 +176,12 @@
 				"margin-top"
 			],
 			[
-				"ba",
-				"background-attachment"
-			],
-			[
-				"no",
-				"no-repeat"
-			],
-			[
-				"max",
-				"max-width"
-			],
-			[
 				"zi",
 				"z-index"
 			],
 			[
 				"ri",
 				"right"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"rgba",
@@ -140,10 +212,6 @@
 				"transition	CSS - transition: ;"
 			],
 			[
-				"tex",
-				"text-decoration"
-			],
-			[
 				"bot",
 				"bottom"
 			],
@@ -164,14 +232,6 @@
 				"inline-block"
 			],
 			[
-				"ma",
-				"max-width"
-			],
-			[
-				"back",
-				"background"
-			],
-			[
 				"top",
 				"top"
 			],
@@ -182,10 +242,6 @@
 			[
 				"1",
 				"1em"
-			],
-			[
-				"box",
-				"box-shadow"
 			],
 			[
 				"non",
@@ -206,10 +262,6 @@
 			[
 				"co",
 				"color"
-			],
-			[
-				"borde",
-				"border-radius"
 			],
 			[
 				"inl",
@@ -248,81 +300,52 @@
 	"buffers":
 	[
 		{
-			"file": "/C/wamp/www/mejorandola/practicas/javascript/index.html",
+			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 872,
+				"buffer_size": 1969,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/wamp/www/mejorandola/practicas/javascript/css/main.css",
+			"file": "modules/navbar.php",
 			"settings":
 			{
-				"buffer_size": 503,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/wamp/www/mejorandola/practicas/javascript/js/main.js",
-			"settings":
-			{
-				"buffer_size": 52,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/wamp/www/mejorandola/practicas/javascript/js/app.js",
-			"settings":
-			{
-				"buffer_size": 267,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/wamp/www/mejorandola/practicas/javascript/js/core/eventos.js",
-			"settings":
-			{
-				"buffer_size": 473,
-				"line_ending": "Unix",
-				"name": "eventos.js"
-			}
-		},
-		{
-			"file": "/C/wamp/www/mejorandola/practicas/javascript/js/modulos/contador.js",
-			"settings":
-			{
-				"buffer_size": 393,
-				"line_ending": "Unix",
-				"name": "contador.js"
-			}
-		},
-		{
-			"file": "/C/wamp/www/mejorandola/practicas/javascript/js/modulos/ingresar.js",
-			"settings":
-			{
-				"buffer_size": 1016,
+				"buffer_size": 169,
 				"line_ending": "Windows",
-				"name": "ingresar.js"
+				"name": "navbar.php"
 			}
 		},
 		{
-			"file": "/C/wamp/www/mejorandola/practicas/javascript/js/core/sandbox.js",
+			"file": "modules/footer.php",
 			"settings":
 			{
-				"buffer_size": 499,
+				"buffer_size": 548,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "body\n	font-family Verdana\n	overflow-wrap: break-word\n	word-wrap: break-word\n	line-height: 1.5\n	display block\n	float left\n	background #fff\n	letter-spacing 1em\n	",
-			"file": "css/test.styl",
-			"file_size": 165,
-			"file_write_time": 130077310209423279,
+			"file": "aboutme.php",
 			"settings":
 			{
-				"buffer_size": 159,
-				"line_ending": "Windows"
+				"buffer_size": 4068,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "modules/header.php",
+			"settings":
+			{
+				"buffer_size": 151,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/main.styl",
+			"settings":
+			{
+				"buffer_size": 10862,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -446,8 +469,20 @@
 	},
 	"file_history":
 	[
-		"/C/wamp/www/pruebasnode/package.json",
+		"/C/wamp/www/imaginand/modules/head.php",
+		"/C/wamp/www/imaginand/css/main.css",
+		"/C/wamp/www/imaginand/modules/footer.php",
+		"/C/wamp/www/mejorandola/practicas/javascript/index.html",
+		"/C/wamp/www/mejorandola/practicas/javascript/css/main.css",
+		"/C/wamp/www/mejorandola/practicas/javascript/js/main.js",
+		"/C/wamp/www/mejorandola/practicas/javascript/js/app.js",
+		"/C/wamp/www/mejorandola/practicas/javascript/js/core/eventos.js",
+		"/C/wamp/www/mejorandola/practicas/javascript/js/modulos/contador.js",
+		"/C/wamp/www/mejorandola/practicas/javascript/js/modulos/ingresar.js",
+		"/C/wamp/www/mejorandola/practicas/javascript/js/core/sandbox.js",
 		"/C/wamp/www/imaginand/tets.php",
+		"/C/wamp/www/imaginand/css/test.styl",
+		"/C/wamp/www/pruebasnode/package.json",
 		"/C/wamp/www/imaginand/css/test.cssus",
 		"/C/wamp/www/imaginand/css/test.stylus",
 		"/C/Users/Andres/AppData/Roaming/Sublime Text 2/Packages/User/Stylus.sublime-build",
@@ -457,10 +492,7 @@
 		"/C/wamp/www/pruebasdjango/app/urls.py",
 		"/C/wamp/www/pruebasdjango/demo/models.py",
 		"/C/wamp/www/pruebasdjango/app/settings.py",
-		"/C/wamp/www/imaginand/css/main.css",
 		"/C/wamp/www/mejorandola/practicas/phonegap/02/index.html",
-		"/C/wamp/www/imaginand/modules/footer.php",
-		"/C/wamp/www/imaginand/modules/head.php",
 		"/C/wamp/www/imaginand/modules/header.php",
 		"/C/wamp/www/imaginand/index.php",
 		"/C/wamp/www/mejorandola/practicas/html5ycss3/02/index.html",
@@ -491,6 +523,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"sobre",
+			"CONTAINER",
+			"article",
+			"section",
 			"href",
 			";\n",
 			"');\n",
@@ -518,96 +554,43 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/wamp/www/mejorandola/practicas/javascript/index.html",
+					"file": "index.php",
 					"settings":
 					{
-						"buffer_size": 872,
+						"buffer_size": 1969,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								270,
-								270
+								838,
+								838
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 216.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/C/wamp/www/mejorandola/practicas/javascript/css/main.css",
+					"file": "modules/navbar.php",
 					"settings":
 					{
-						"buffer_size": 503,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								133,
-								133
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/wamp/www/mejorandola/practicas/javascript/js/main.js",
-					"settings":
-					{
-						"buffer_size": 52,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								51,
-								51
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/wamp/www/mejorandola/practicas/javascript/js/app.js",
-					"settings":
-					{
-						"buffer_size": 267,
+						"buffer_size": 169,
 						"regions":
 						{
 						},
@@ -620,8 +603,62 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"auto_name": "navbar.php",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "modules/footer.php",
+					"settings":
+					{
+						"buffer_size": 548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "aboutme.php",
+					"settings":
+					{
+						"buffer_size": 4068,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								304,
+								304
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -631,137 +668,60 @@
 				},
 				{
 					"buffer": 4,
-					"file": "/C/wamp/www/mejorandola/practicas/javascript/js/core/eventos.js",
+					"file": "modules/header.php",
 					"settings":
 					{
-						"buffer_size": 473,
+						"buffer_size": 151,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								357,
-								357
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_name": "eventos.js",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
 					"buffer": 5,
-					"file": "/C/wamp/www/mejorandola/practicas/javascript/js/modulos/contador.js",
+					"file": "css/main.styl",
 					"settings":
 					{
-						"buffer_size": 393,
+						"buffer_size": 10862,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								393,
-								393
+								8258,
+								8258
 							]
 						],
 						"settings":
 						{
-							"auto_name": "contador.js",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Stylus/editors/Stylus.tmbundle/Syntaxes/Stylus.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/C/wamp/www/mejorandola/practicas/javascript/js/modulos/ingresar.js",
-					"settings":
-					{
-						"buffer_size": 1016,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								553,
-								610
-							]
-						],
-						"settings":
-						{
-							"auto_name": "ingresar.js",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/C/wamp/www/mejorandola/practicas/javascript/js/core/sandbox.js",
-					"settings":
-					{
-						"buffer_size": 499,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								446,
-								446
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "css/test.styl",
-					"settings":
-					{
-						"buffer_size": 159,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								159,
-								159
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Stylus/editors/Stylus.tmbundle/Syntaxes/Stylus.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4415.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -786,11 +746,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.558553386912,
 			1.0
 		],
 		"rows":
@@ -833,6 +800,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 178.0,
 	"status_bar_visible": true
 }
