@@ -30,7 +30,7 @@
                     <div class="shadow"><img src="img/pic_01.jpg" /></div>
                     <div class="info">
                         <h2>Sobre mí</h2>
-                        <p>Conóceme! El mejor servicio a un click!</p>
+                        <p>Conóceme! El mejor servicio a un click.</p>
                     </div>
                 </a>
             </article>

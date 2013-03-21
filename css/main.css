@@ -371,18 +371,22 @@ nav ul > li a {
 /* MEDIA 420px */
 @media (max-width: 420px) {
   footer {
-    margin-bottom: 10%;
+    margin-bottom: 1%;
+  }
+  footer #contact {
+    padding-bottom: 8%;
   }
   nav ul > li {
     font-size: 0.9em;
   }
   #home {
-    margin: 8% 0 5%;
+    margin: 6% 0 5%;
+    padding: 0 2%;
   }
   #home > article {
     display: block;
     margin: 0 0 3% 0;
-    width: 98%;
+    width: 100%;
   }
   #home > article .shadow,
   #home > article .info {
@@ -398,6 +402,7 @@ nav ul > li a {
   #home > article .info p {
     display: block;
     margin: 0;
+    padding-right: 2%;
   }
 }
 /* MEDIA 360px */
