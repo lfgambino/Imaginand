@@ -5,15 +5,17 @@
 
 $(document).on("ready", inicio);
 
-/* --- Variables Globales --- */
+/* --- Objetos JSON --- */
 var skills = {
-        html5: 70,
+        html5: 80,
         css3: 60,
         jquery: 70,
+        jquerym: 30,
         mootools: 10,
         php: 80,
         symfony2: 40,
-        zend: 10,
+        django: 10,
+        nodejs: 10,
         photoshop: 35,
         illustrator: 10
     };
@@ -36,6 +38,7 @@ function inicio()
     });
 
 }
+
 
 function mixpanelRegister()
 {

@@ -22,33 +22,35 @@
 	<!-- HEADER:END -->
         
         <!-- CONTENT:INI -->
-        <article class="aboutme">
+        <section id="aboutme">
 
             <!-- PHOTOS -->
             <div class="photos">
-                <img src="img/myphotos.png" alt="my photos" />
+                <div id="photo01" class="shadow"><img src="img/myphoto01.jpg" alt="my photo 01" /></div>
+                <div id="photo02" class="shadow"><img src="img/myphoto02.jpg" alt="my photo 02" /></div>
+                <!--<img src="img/myphotos.png" alt="my photos" />-->
             </div>
             
             <!-- INFO -->
-            <div class="info">
+            <article class="info">
                 <h2>Sobre mí</h2>
                 <div class="textinfo">
                     <p>¡Hola! soy Andrés Saá, <strong>diseñador web freelance.</strong></p>
                     <p>¿Eres un particular o una empresa? ¡No importa!<br />
-                       Si buscas soluciones creativas y resultados profesionales<br />
+                       Si buscas soluciones creativas y resultados profesionales
                        a precios razonables, estás en el lugar adecuado.
                     </p>
-                    <p>Realizo todo tipo de webs: Blogs, Foros, Tiendas Online,<br />
+                    <p>Realizo todo tipo de webs: Blogs, Foros, Tiendas Online,
                        Portfolios, Webs Personales y Profesionales...
                     </p>
-                    <p>Contacta conmigo y te ofreceré el producto<br />
+                    <p>Contacta conmigo y te ofreceré el producto
                        que mejor se adapte a tus necesidades.
                     </p>
                     <p>Email:&nbsp;&nbsp;<span class="contactinfo">info@imaginand.com</span><br />
                        Telf:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="contactinfo">675 357 974</span>
                     </p>
                 </div>
-            </div>
+            </article>
             
             <!-- SKILLS -->
             <ul class="skills">
@@ -68,9 +70,9 @@
                     <div class="name">jQuery</div>
                     <div class="bar"><div class="level"></div></div>
                 </li>
-                <!-- MooTools -->
-                <li id="mootools">
-                    <div class="name">MooTools</div>
+                <!-- jQuery Mobile -->
+                <li id="jquerym">
+                    <div class="name">jQuery Mobile</div>
                     <div class="bar"><div class="level"></div></div>
                 </li>
                 <!-- PHP -->
@@ -83,9 +85,14 @@
                     <div class="name">Symfony2</div>
                     <div class="bar"><div class="level"></div></div>
                 </li>
-                <!-- Zend -->
-                <li id="zend">
-                    <div class="name">Zend Framework</div>
+                <!-- Django -->
+                <li id="django">
+                    <div class="name">Django</div>
+                    <div class="bar"><div class="level"></div></div>
+                </li>
+                <!-- NodeJS -->
+                <li id="nodejs">
+                    <div class="name">NodeJS</div>
                     <div class="bar"><div class="level"></div></div>
                 </li>
                 <!-- Photoshop -->
@@ -101,7 +108,7 @@
             </ul>
  
 
-        </article>
+        </section>
         <!-- CONTENT:END -->
         
         <!-- FOOTER:INI --> 

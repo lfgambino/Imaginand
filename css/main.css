@@ -17,7 +17,7 @@ footer {
   color: #464b51;
   font-family: Oswald, sans-serif;
   font-weight: 300;
-  margin: 0 auto 1em;
+  margin: 5% auto 2%;
   max-width: 900px;
   text-align: center;
   -webkit-text-stroke: 0.1px;
@@ -83,6 +83,7 @@ footer #contact .twitter:hover {
 header {
   color: #464b51;
   overflow: hidden;
+  margin-bottom: 4%;
 }
 header h1 {
   font-family: 'News Cycle', Verdana, Geneva, sans-serif;
@@ -114,13 +115,13 @@ html {
   height: 100%;
 }
 nav {
-  background: #464b51;
+  background: #65686d;
   left: 0;
   position: fixed;
-  opacity: 0.8;
+  opacity: 0.9;
   top: 0;
   width: 100%;
-  z-index: 2;
+  z-index: 1000;
 }
 nav ul {
   list-style-type: none;
@@ -134,6 +135,7 @@ nav ul > li {
   display: inline-block;
   font-family: Oswald;
   font-weight: 400;
+  font-size: 1em;
   margin: 0 1em;
   padding: 0;
   text-transform: uppercase;
@@ -147,61 +149,102 @@ nav ul > li a {
   text-decoration: none;
 }
 #aboutme {
-  width: 980px;
-  margin-bottom: 70px !important;
-  overflow: hidden !important;
+  box-sizing: border-box;
+  padding: 0 2%;
 }
-#aboutme .photos {
-  width: 330px;
+#aboutme .info,
+#aboutme .photos,
+#aboutme .skills {
+  box-sizing: border-box;
+  -webtik-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   display: inline-block;
   vertical-align: middle;
 }
 #aboutme .info {
-  width: 390px;
-  margin-left: 50px;
-  display: inline-block;
-  vertical-align: top;
+  width: 43%;
+  margin-left: 6%;
 }
 #aboutme .info h2 {
   font-family: Cookie, serif;
-  font-size: 60px;
+  font-size: 3.8em;
   font-weight: 400;
-  line-height: 60px;
   height: 60px;
-  margin: 0;
+  line-height: 60px;
+  margin: 0 0 0.5em;
 }
 #aboutme .info p {
-  font-size: 17px;
+  font-size: 1.1em;
+  margin: 0 0 1.5em;
   text-shadow: 1px 1px #f9f9f9;
   -webkit-text-stroke: 0.3px #999;
-  margin-top: 25px;
 }
 #aboutme .info .contactinfo {
   color: #f06;
   -webkit-text-stroke: 0.3px #ff76ad;
 }
+#aboutme .photos {
+  width: 32%;
+}
+#aboutme .photos .shadow {
+  background: #fff;
+  border: 1px solid rgba(89,96,102,0.3);
+  box-sizing: border-box;
+  -webtik-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-shadow: 0.1em 0.1em 0.2em 0.1em rgba(89,96,102,0.2);
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+#aboutme .photos .shadow::before {
+  display: block;
+  content: '';
+  position: absolute;
+  height: 94%;
+  box-shadow: 0 0 0.2em 0.1em rgba(89,96,102,0.3) inset;
+  margin: 2%;
+  width: 96%;
+}
+#aboutme .photos #photo01 {
+  transform: rotate(-12deg);
+  -webkit-transform: rotate(-12deg);
+  -moz-transform: rotate(-12deg);
+  -o-transform: rotate(-12deg);
+  z-index: 2;
+}
+#aboutme .photos #photo02 {
+  margin-top: -1em;
+  transform: rotate(12deg);
+  -webkit-transform: rotate(12deg);
+  -moz-transform: rotate(12deg);
+  -o-transform: rotate(12deg);
+}
+#aboutme .photos .shadow img {
+  display: block;
+  margin: 2%;
+  width: 96%;
+}
 #aboutme .skills {
   font-family: Rokkitt, serif;
-  width: 160px;
-  display: inline-block;
-  vertical-align: top;
   list-style-type: none;
+  margin-left: 2%;
   padding: 0;
-  margin: 0 0 0 42px;
+  width: 16%;
 }
 #aboutme .skills h3 {
-  font-size: 30px;
+  font-size: 1.8em;
   font-weight: 400;
+  margin: 0 0 0.5em;
   text-shadow: 1px 2px #f9f9f9;
-  margin: 0 0 15px;
 }
 #aboutme .skills li {
+  margin-bottom: 0.9em;
   text-shadow: 1px 1px #f9f9f9;
-  margin-bottom: 15px;
 }
 #aboutme .skills li .bar {
   background-color: #7a818a;
-  width: 150px;
+  width: 100%;
   height: 6px;
   border-radius: 3px;
 }
@@ -243,13 +286,18 @@ nav ul > li a {
   overflow: hidden;
 }
 #home {
-  margin: 4% 0 6%;
+  box-sizing: border-box;
+  -webtik-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   padding: 0 1%;
 }
 #home > article {
   background: #fff;
+  border: 1px solid rgba(89,96,102,0.3);
   box-sizing: border-box;
-  box-shadow: 0 0 0.2em 0.1em rgba(89,96,102,0.2);
+  -webtik-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-shadow: 0 0 0.2em 0.1em rgba(89,96,102,0.15);
   display: inline-block;
   margin-right: 4%;
   overflow: hidden;
@@ -287,12 +335,15 @@ nav ul > li a {
   content: '';
   position: absolute;
   height: 100%;
-  box-shadow: 0 0 0.1em 0.1em rgba(89,96,102,0.3) inset;
+  box-shadow: 0 0 0.2em 0.1em rgba(89,96,102,0.3) inset;
   width: 100%;
 }
 #home > article .shadow > img {
   display: block;
   width: 100%;
+}
+strong {
+  font-weight: normal;
 }
 .firstcolor {
   color: #464b51;
@@ -327,6 +378,7 @@ nav ul > li a {
 .marginR0 {
   margin-right: 0 !important;
 }
+/* MEDIA 800px */
 @media (max-width: 800px) {
   footer #contact {
     background-size: 800px;
@@ -367,12 +419,40 @@ nav ul > li a {
   footer #contact .twitter:hover {
     background-position: -51px -109px;
   }
+  #aboutme .info {
+    margin-left: 6%;
+    width: 50%;
+  }
+  #aboutme .info p {
+    font-size: 1em;
+  }
+  #aboutme .photos {
+    margin-left: 2%;
+    width: 40%;
+  }
+  #aboutme .skills {
+    margin: 5% 0 0 1%;
+    display: block;
+    width: 100%;
+  }
+  #aboutme .skills h3 {
+    margin-bottom: 0.7em;
+  }
+  #aboutme .skills > li {
+    margin: 0 4% 3% 0;
+    padding: 0;
+    display: inline-block;
+    width: 16%;
+  }
+  #aboutme .skills > li:nth-child(5n+1) {
+    margin-right: 0;
+  }
   #home > article .info h2 {
     font-size: 2.2em;
   }
 }
-/* MEDIA 620px */
-@media (max-width: 620px) {
+/* MEDIA 640px */
+@media (max-width: 640px) {
   footer #contact {
     background-size: 700px;
   }
@@ -385,17 +465,72 @@ nav ul > li a {
   header h2 {
     font-size: 1.5em;
   }
+  #aboutme .info,
+  #aboutme .photos {
+    display: block;
+    width: 100%;
+  }
+  #aboutme .info {
+    width: 90%;
+  }
+  #aboutme .info h2 {
+    font-size: 2.8em;
+    margin-bottom: 0.3em;
+  }
+  #aboutme .info .textinfo {
+    font-size: 1.2em;
+  }
+  #aboutme .info p {
+    margin-bottom: 0.8em;
+  }
+  #aboutme .photos {
+    margin: 9% 0 7%;
+    padding: 0 7%;
+  }
+  #aboutme .photos .shadow::before {
+    height: 96%;
+  }
+  #aboutme .photos #photo01 {
+    display: none;
+  }
+  #aboutme .photos #photo02 {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  #aboutme .skills {
+    margin: 10% 0 0 0;
+    padding: 0 6%;
+  }
+  #aboutme .skills h3 {
+    font-size: 2em;
+    margin-bottom: 0.6em;
+  }
+  #aboutme .skills > li {
+    width: 47%;
+    margin-right: 5%;
+  }
+  #aboutme .skills > li:nth-child(6) {
+    margin-right: 5% !important;
+  }
+  #aboutme .skills > li:nth-child(odd) {
+    margin-right: 0;
+  }
   #home > article .info h2 {
     font-size: 1.9em;
   }
 }
-/* MEDIA 420px */
-@media (max-width: 420px) {
+/* MEDIA 480px */
+@media (max-width: 480px) {
   footer {
     margin-bottom: 1%;
   }
   footer #contact {
     padding-bottom: 8%;
+  }
+  header {
+    margin-bottom: 6%;
   }
   header h1 {
     font-size: 3.3em;
@@ -404,10 +539,28 @@ nav ul > li a {
     font-size: 1.3em;
   }
   nav ul > li {
-    font-size: 0.9em;
+    font-size: 1em;
+    margin: 0 0.8em;
+  }
+  #aboutme {
+    margin: 12% 0 8%;
+  }
+  #aboutme .info h2 {
+    margin-bottom: 0.1em;
+  }
+  #aboutme .info .textinfo {
+    font-size: 1.1em;
+  }
+  #aboutme .photos {
+    margin-bottom: 8%;
+  }
+  #aboutme .skills > li {
+    width: 46%;
+  }
+  #container {
+    margin-top: 3.2em;
   }
   #home {
-    margin: 6% 0 5%;
     padding: 0 2%;
   }
   #home > article {
@@ -447,6 +600,9 @@ nav ul > li a {
   }
   header h2 {
     font-size: 1.1em;
+  }
+  #aboutme .photos {
+    margin-bottom: 8%;
   }
   #home > article .info h2 {
     margin: 10% 0 2% 2%;

@@ -19,9 +19,9 @@
     	
         <!-- HEADER:INI -->
         <?php include("modules/header.php") ?>
-	<!-- HEADER:END -->
+	   <!-- HEADER:END -->
         
-        <!-- ARTICLE:INI -->
+        <!-- HOME:INI -->
         <section id="home">
 
             <!-- ABOUTME -->
@@ -52,13 +52,13 @@
                     <div class="shadow"><img src="img/pic_03.jpg" /></div>
                     <div class="info">
                         <h2>Servicios</h2>
-                        <p>¿Qué necesitas? ¡puedo ayudarte!</p>
+                        <p>¿Qué necesitas?<br />¡Puedo ayudarte!</p>
                     </div>
                 </a>
             </article>
             
         </section>
-        <!-- ARTICLE:END -->
+        <!-- HOME:END -->
         
         <!-- FOOTER:INI --> 
         <?php include("modules/footer.php") ?>
