@@ -488,7 +488,7 @@ strong {
     padding: 0 7%;
   }
   #aboutme .photos .shadow::before {
-    height: 96%;
+    height: 94%;
   }
   #aboutme .photos #photo01 {
     display: none;

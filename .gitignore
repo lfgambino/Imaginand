@@ -162,6 +162,10 @@ pip-log.txt
 # Mac crap
 .DS_Store
 
+
+#sublime
+imaginand.sublime-project
+imaginand.sublime-workspace
 # Netbeans
 nbproject/
 # Analisis

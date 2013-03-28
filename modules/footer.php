@@ -15,3 +15,5 @@
     
 </footer>
 
+<!-- ************* SCRIPT  ************* -->
+<?php include("modules/js.php") ?>

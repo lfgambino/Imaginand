@@ -22,7 +22,4 @@
     <!-- ************* CSS ***************** -->
     <?php include("modules/css.php") ?>
     
-    <!-- ************* SCRIPT  ************* -->
-    <?php include("modules/js.php") ?>
-    
 </head>
