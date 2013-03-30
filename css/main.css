@@ -53,31 +53,31 @@ footer #contact .social a {
   margin-bottom: 10%;
   margin-right: 3%;
 }
-footer #contact .social a.email {
+footer #contact .social .email {
   background: url("../img/contact_sprite.png") no-repeat;
   background-position: 0px 0px;
   height: 73px;
   width: 72px;
 }
-footer #contact .social a.email:hover {
+footer #contact .social .email:hover {
   background-position: -72px 0px;
 }
-footer #contact .social a.linkedin {
+footer #contact .social .linkedin {
   background: url("../img/contact_sprite.png") no-repeat;
   background-position: 0px -73px;
   height: 65px;
   width: 64px;
 }
-footer #contact .social a.linkedin:hover {
+footer #contact .social .linkedin:hover {
   background-position: -64px -73px;
 }
-footer #contact .social a.twitter {
+footer #contact .social .twitter {
   background: url("../img/contact_sprite.png") no-repeat;
   background-position: 0px -138px;
   height: 65px;
   width: 64px;
 }
-footer #contact .social a.twitter:hover {
+footer #contact .social .twitter:hover {
   background-position: -64px -138px;
 }
 header {
@@ -397,46 +397,46 @@ strong {
     -moz-background-size: 800px;
     background-size: 800px;
   }
-  footer #contact .email,
-  footer #contact .email:hover {
+  footer #contact .social .email,
+  footer #contact .social .email:hover {
     -webkit-background-size: 120px;
     -moz-background-size: 120px;
     background-size: 120px;
     height: 60px;
     width: 60px;
   }
-  footer #contact .email {
+  footer #contact .social .email {
     background-position: 0px 0px;
   }
-  footer #contact .email:hover {
+  footer #contact .social .email:hover {
     background-position: -60px 0px;
   }
-  footer #contact .linkedin,
-  footer #contact .linkedin:hover {
+  footer #contact .social .linkedin,
+  footer #contact .social .linkedin:hover {
     -webkit-background-size: 114px;
     -moz-background-size: 114px;
     background-size: 114px;
     height: 51px;
     width: 51px;
   }
-  footer #contact .linkedin {
+  footer #contact .social .linkedin {
     background-position: 0px -58px;
   }
-  footer #contact .linkedin:hover {
+  footer #contact .social .linkedin:hover {
     background-position: -51px -58px;
   }
-  footer #contact .twitter,
-  footer #contact .twitter:hover {
+  footer #contact .social .twitter,
+  footer #contact .social .twitter:hover {
     -webkit-background-size: 114px;
     -moz-background-size: 114px;
     background-size: 114px;
     height: 51px;
     width: 51px;
   }
-  footer #contact .twitter {
+  footer #contact .social .twitter {
     background-position: 0px -109px;
   }
-  footer #contact .twitter:hover {
+  footer #contact .social .twitter:hover {
     background-position: -51px -109px;
   }
   #aboutme .info {
@@ -449,25 +449,25 @@ strong {
   #aboutme .info p {
     font-size: 1em;
   }
-  #aboutme .info .photos {
+  #aboutme .photos {
     margin-left: 2%;
     width: 40%;
   }
-  #aboutme .info .skills {
+  #aboutme .skills {
     margin: 5% 0 0 1%;
     display: block;
     width: 100%;
   }
-  #aboutme .info .skills h3 {
+  #aboutme .skills h3 {
     margin-bottom: 0.7em;
   }
-  #aboutme .info .skills li {
+  #aboutme .skills li {
     margin: 0 4% 3% 0;
     padding: 0;
     display: inline-block;
     width: 16%;
   }
-  #aboutme .info .skills li:nth-child(5n+1) {
+  #aboutme .skills li:nth-child(5n+1) {
     margin-right: 0;
   }
 }

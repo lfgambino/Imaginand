@@ -59,29 +59,29 @@ footer
         margin-bottom: 10%
         margin-right: 3%
 
-        &.email
-          background: url('../img/contact_sprite.png') no-repeat
-          background-position 0px 0px
-          height: 73px
-          width: 72px
-          &:hover
-            background-position -72px 0px
+      .email
+        background: url('../img/contact_sprite.png') no-repeat
+        background-position 0px 0px
+        height: 73px
+        width: 72px
+        &:hover
+          background-position -72px 0px
 
-        &.linkedin
-          background: url('../img/contact_sprite.png') no-repeat
-          background-position 0px -73px
-          height: 65px
-          width: 64px
-          &:hover
-            background-position -64px -73px
+      .linkedin
+        background: url('../img/contact_sprite.png') no-repeat
+        background-position 0px -73px
+        height: 65px
+        width: 64px
+        &:hover
+          background-position -64px -73px
 
-        &.twitter
-          background: url('../img/contact_sprite.png') no-repeat
-          background-position 0px -138px
-          height: 65px
-          width: 64px
-          &:hover
-            background-position -64px -138px
+      .twitter
+        background: url('../img/contact_sprite.png') no-repeat
+        background-position 0px -138px
+        height: 65px
+        width: 64px
+        &:hover
+          background-position -64px -138px
 
 
 
@@ -377,33 +377,35 @@ strong
     #contact
       background-size: 800px
 
-      .email, .email:hover
-        background-size: 120px
-        height: 60px
-        width: 60px
-      .email
-        background-position 0px 0px
-        &:hover
-          background-position -60px 0px
+      .social
+      
+        .email, .email:hover
+          background-size: 120px
+          height: 60px
+          width: 60px
+        .email
+          background-position 0px 0px
+          &:hover
+            background-position -60px 0px
 
 
-      .linkedin, .linkedin:hover
-        background-size: 114px
-        height: 51px
-        width: 51px
-      .linkedin
-        background-position 0px -58px
-        &:hover
-          background-position -51px -58px
+        .linkedin, .linkedin:hover
+          background-size: 114px
+          height: 51px
+          width: 51px
+        .linkedin
+          background-position 0px -58px
+          &:hover
+            background-position -51px -58px
 
-      .twitter, .twitter:hover
-        background-size: 114px
-        height: 51px
-        width: 51px
-      .twitter
-        background-position 0px -109px
-        &:hover
-          background-position -51px -109px
+        .twitter, .twitter:hover
+          background-size: 114px
+          height: 51px
+          width: 51px
+        .twitter
+          background-position 0px -109px
+          &:hover
+            background-position -51px -109px
 
   #aboutme
     .info
@@ -414,23 +416,23 @@ strong
       p
         font-size 1em
 
-      .photos
-        margin-left 2%
-        width 40%
+    .photos
+      margin-left 2%
+      width 40%
 
-      .skills
-        margin 5% 0 0 1%
-        display block
-        width 100%
-        h3
-          margin-bottom .7em
-        li
-          margin 0 4% 3% 0
-          padding 0
-          display inline-block
-          width 16%
-          &:nth-child(5n+1)
-            margin-right 0
+    .skills
+      margin 5% 0 0 1%
+      display block
+      width 100%
+      h3
+        margin-bottom .7em
+      li
+        margin 0 4% 3% 0
+        padding 0
+        display inline-block
+        width 16%
+        &:nth-child(5n+1)
+          margin-right 0
 
 
 
@@ -478,8 +480,9 @@ strong
       #photo02
         transform: rotate(0deg)
 
-      .shadow::before  
-        height 94%
+      .shadow
+        &::before  
+          height 94%
 
 
     .skills
@@ -612,6 +615,7 @@ strong
 
     .photos
       margin-bottom 8%
+
 
   #home
 
