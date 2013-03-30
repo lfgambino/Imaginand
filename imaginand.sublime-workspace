@@ -4,12 +4,80 @@
 		"selected_items":
 		[
 			[
-				"con",
-				"contact"
+				"bor",
+				"border-radius"
 			],
 			[
 				"mar",
 				"margin-bottom"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"textinfo"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"mr",
+				"margin"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"phot",
+				"photo01"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"tra",
+				"transform	CSS - transform: ;"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"bo",
+				"box-sizing"
+			],
+			[
+				"s",
+				"skills"
+			],
+			[
+				"con",
+				"contact"
 			],
 			[
 				"blo",
@@ -38,14 +106,6 @@
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"col",
@@ -78,14 +138,6 @@
 			[
 				"max",
 				"max-height"
-			],
-			[
-				"ba",
-				"background"
-			],
-			[
-				"ma",
-				"margin"
 			],
 			[
 				"au",
@@ -124,10 +176,6 @@
 				"modulos"
 			],
 			[
-				"re",
-				"return"
-			],
-			[
 				"modu",
 				"modulo"
 			],
@@ -136,20 +184,12 @@
 				"tipo"
 			],
 			[
-				"bor",
-				"border"
-			],
-			[
 				"rgb",
 				"rgba	rgba()"
 			],
 			[
 				"bac",
 				"background"
-			],
-			[
-				"fo",
-				"footer	Tag"
 			],
 			[
 				"u",
@@ -196,20 +236,8 @@
 				"absolute"
 			],
 			[
-				"s",
-				"scroll"
-			],
-			[
-				"wi",
-				"width"
-			],
-			[
 				"he",
 				"height"
-			],
-			[
-				"tra",
-				"transition	CSS - transition: ;"
 			],
 			[
 				"bot",
@@ -256,10 +284,6 @@
 				"padding"
 			],
 			[
-				"n",
-				"normal"
-			],
-			[
 				"co",
 				"color"
 			],
@@ -280,10 +304,6 @@
 				"center"
 			],
 			[
-				"pa",
-				"padding"
-			],
-			[
 				"backgr",
 				"background-image"
 			],
@@ -300,43 +320,26 @@
 	"buffers":
 	[
 		{
-			"file": "index.php",
+			"file": "services.php",
 			"settings":
 			{
-				"buffer_size": 1969,
+				"buffer_size": 1983,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "modules/navbar.php",
+			"file": "modules/head.php",
 			"settings":
 			{
-				"buffer_size": 169,
-				"line_ending": "Windows",
-				"name": "navbar.php"
+				"buffer_size": 1214,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "modules/footer.php",
 			"settings":
 			{
-				"buffer_size": 548,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "aboutme.php",
-			"settings":
-			{
-				"buffer_size": 4068,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "modules/header.php",
-			"settings":
-			{
-				"buffer_size": 151,
+				"buffer_size": 627,
 				"line_ending": "Unix"
 			}
 		},
@@ -344,7 +347,7 @@
 			"file": "css/main.styl",
 			"settings":
 			{
-				"buffer_size": 10862,
+				"buffer_size": 14062,
 				"line_ending": "Unix"
 			}
 		}
@@ -469,9 +472,19 @@
 	},
 	"file_history":
 	[
-		"/C/wamp/www/imaginand/modules/head.php",
+		"/C/wamp/www/imaginand/aboutme.php",
+		"/C/wamp/www/imaginand/index.php",
 		"/C/wamp/www/imaginand/css/main.css",
+		"/C/wamp/www/andres/css/estilo.css",
+		"/C/wamp/www/andres/index.html",
+		"/C/wamp/www/andres/js/prefixfree.min.js",
+		"/C/wamp/www/imaginand/modules/navbar.php",
 		"/C/wamp/www/imaginand/modules/footer.php",
+		"/C/wamp/www/imaginand/css/main.styl",
+		"/C/wamp/www/imaginand/js/script.js",
+		"/C/wamp/www/imaginand/modules/head.php",
+		"/C/wamp/www/imaginand/modules/css.php",
+		"/C/wamp/www/imaginand/modules/header.php",
 		"/C/wamp/www/mejorandola/practicas/javascript/index.html",
 		"/C/wamp/www/mejorandola/practicas/javascript/css/main.css",
 		"/C/wamp/www/mejorandola/practicas/javascript/js/main.js",
@@ -493,8 +506,6 @@
 		"/C/wamp/www/pruebasdjango/demo/models.py",
 		"/C/wamp/www/pruebasdjango/app/settings.py",
 		"/C/wamp/www/mejorandola/practicas/phonegap/02/index.html",
-		"/C/wamp/www/imaginand/modules/header.php",
-		"/C/wamp/www/imaginand/index.php",
 		"/C/wamp/www/mejorandola/practicas/html5ycss3/02/index.html",
 		"/C/wamp/www/mejorandola/practicas/html5ycss3/02/estilos.css",
 		"/C/wamp/www/mejorandola/practicas/html5ycss3/02/main.js",
@@ -523,6 +534,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"about",
+			"box-sizing: border-box",
+			"box-sizing border-box",
 			"sobre",
 			"CONTAINER",
 			"article",
@@ -542,6 +556,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"box-sizing border-box\n  -webtik-box-sizing border-box\n  -moz-box-sizing border-box\n{",
 			"\n{",
 			"#aboutme"
 		],
@@ -559,18 +574,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.php",
+					"file": "services.php",
 					"settings":
 					{
-						"buffer_size": 1969,
+						"buffer_size": 1983,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								838,
-								838
+								1510,
+								1510
 							]
 						],
 						"settings":
@@ -580,31 +595,32 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 216.0,
+						"translation.y": 324.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "modules/navbar.php",
+					"file": "modules/head.php",
 					"settings":
 					{
-						"buffer_size": 169,
+						"buffer_size": 1214,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								47,
-								47
+								1201,
+								1201
 							]
 						],
 						"settings":
 						{
-							"auto_name": "navbar.php",
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -617,69 +633,15 @@
 					"file": "modules/footer.php",
 					"settings":
 					{
-						"buffer_size": 548,
+						"buffer_size": 627,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "aboutme.php",
-					"settings":
-					{
-						"buffer_size": 4068,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								304,
-								304
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "modules/header.php",
-					"settings":
-					{
-						"buffer_size": 151,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								627,
+								627
 							]
 						],
 						"settings":
@@ -699,19 +661,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 5,
+					"buffer": 3,
 					"file": "css/main.styl",
 					"settings":
 					{
-						"buffer_size": 10862,
+						"buffer_size": 14062,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8258,
-								8258
+								3763,
+								3763
 							]
 						],
 						"settings":
@@ -721,7 +683,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4415.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -757,7 +719,7 @@
 		"cols":
 		[
 			0.0,
-			0.558553386912,
+			0.5,
 			1.0
 		],
 		"rows":

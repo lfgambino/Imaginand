@@ -53,31 +53,31 @@ footer #contact .social a {
   margin-bottom: 10%;
   margin-right: 3%;
 }
-footer #contact .email {
+footer #contact .social a.email {
   background: url("../img/contact_sprite.png") no-repeat;
   background-position: 0px 0px;
   height: 73px;
   width: 72px;
 }
-footer #contact .email:hover {
+footer #contact .social a.email:hover {
   background-position: -72px 0px;
 }
-footer #contact .linkedin {
+footer #contact .social a.linkedin {
   background: url("../img/contact_sprite.png") no-repeat;
   background-position: 0px -73px;
   height: 65px;
   width: 64px;
 }
-footer #contact .linkedin:hover {
+footer #contact .social a.linkedin:hover {
   background-position: -64px -73px;
 }
-footer #contact .twitter {
+footer #contact .social a.twitter {
   background: url("../img/contact_sprite.png") no-repeat;
   background-position: 0px -138px;
   height: 65px;
   width: 64px;
 }
-footer #contact .twitter:hover {
+footer #contact .social a.twitter:hover {
   background-position: -64px -138px;
 }
 header {
@@ -108,8 +108,8 @@ header h2 {
   letter-spacing: 5px;
   margin: 0;
   text-transform: uppercase;
-  -webkit-text-stroke: 0.4px #999;
   text-align: center;
+  -webkit-text-stroke: 0.4px #999;
 }
 html {
   height: 100%;
@@ -119,6 +119,8 @@ nav {
   left: 0;
   position: fixed;
   opacity: 0.9;
+  filter: alpha(opacity=90);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
   top: 0;
   width: 100%;
   z-index: 1000;
@@ -130,7 +132,7 @@ nav ul {
   text-align: center;
   width: 100%;
 }
-nav ul > li {
+nav ul li {
   color: #fff;
   display: inline-block;
   font-family: Oswald;
@@ -141,23 +143,25 @@ nav ul > li {
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255,255,255,0);
 }
-nav ul > li:hover {
+nav ul li:hover {
   border-bottom: 1px solid #fff;
 }
-nav ul > li a {
+nav ul li a {
   color: #fff;
   text-decoration: none;
 }
 #aboutme {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0 2%;
 }
 #aboutme .info,
 #aboutme .photos,
 #aboutme .skills {
-  box-sizing: border-box;
-  -webtik-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  box-sizing: border-box;
   display: inline-block;
   vertical-align: middle;
 }
@@ -189,41 +193,45 @@ nav ul > li a {
 #aboutme .photos .shadow {
   background: #fff;
   border: 1px solid rgba(89,96,102,0.3);
-  box-sizing: border-box;
-  -webtik-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0.1em 0.1em 0.2em 0.1em rgba(89,96,102,0.2);
   box-shadow: 0.1em 0.1em 0.2em 0.1em rgba(89,96,102,0.2);
   height: auto;
   position: relative;
   width: 100%;
+}
+#aboutme .photos .shadow img {
+  display: block;
+  margin: 2%;
+  width: 96%;
 }
 #aboutme .photos .shadow::before {
   display: block;
   content: '';
   position: absolute;
   height: 94%;
+  -webkit-box-shadow: 0 0 0.2em 0.1em rgba(89,96,102,0.3) inset;
   box-shadow: 0 0 0.2em 0.1em rgba(89,96,102,0.3) inset;
   margin: 2%;
   width: 96%;
 }
 #aboutme .photos #photo01 {
-  transform: rotate(-12deg);
   -webkit-transform: rotate(-12deg);
   -moz-transform: rotate(-12deg);
   -o-transform: rotate(-12deg);
+  -ms-transform: rotate(-12deg);
+  transform: rotate(-12deg);
   z-index: 2;
 }
 #aboutme .photos #photo02 {
   margin-top: -1em;
-  transform: rotate(12deg);
   -webkit-transform: rotate(12deg);
   -moz-transform: rotate(12deg);
   -o-transform: rotate(12deg);
-}
-#aboutme .photos .shadow img {
-  display: block;
-  margin: 2%;
-  width: 96%;
+  -ms-transform: rotate(12deg);
+  transform: rotate(12deg);
 }
 #aboutme .skills {
   font-family: Rokkitt, serif;
@@ -246,12 +254,14 @@ nav ul > li a {
   background-color: #7a818a;
   width: 100%;
   height: 6px;
+  -webkit-border-radius: 3px;
   border-radius: 3px;
 }
 #aboutme .skills li .bar .level {
   background-color: #ff9dc4;
   width: 10%;
   height: 100%;
+  -webkit-border-radius: 3px;
   border-radius: 3px;
 }
 #container {
@@ -286,34 +296,35 @@ nav ul > li a {
   overflow: hidden;
 }
 #home {
-  box-sizing: border-box;
-  -webtik-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0 1%;
 }
-#home > article {
+#home article {
   background: #fff;
   border: 1px solid rgba(89,96,102,0.3);
-  box-sizing: border-box;
-  -webtik-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0 0 0.2em 0.1em rgba(89,96,102,0.15);
   box-shadow: 0 0 0.2em 0.1em rgba(89,96,102,0.15);
   display: inline-block;
   margin-right: 4%;
   overflow: hidden;
   width: 30%;
 }
-#home > article:last-child {
+#home article:last-child {
   margin-right: 0;
 }
-#home > article > a {
+#home article a {
   color: #464b51;
   text-decoration: none;
 }
-#home > article > a:hover {
+#home article:hover a {
   color: #f06;
 }
-#home > article .info h2 {
+#home .info h2 {
   font-family: Cookie, cursive;
   font-size: 2.5em;
   font-weight: 400;
@@ -322,24 +333,25 @@ nav ul > li a {
   text-align: center;
   -webkit-text-stroke: 0.3px #666;
 }
-#home > article .info p {
+#home .info p {
   display: none;
 }
-#home > article .shadow {
+#home .shadow {
   position: relative;
   margin: 4%;
   width: 92%;
 }
-#home > article .shadow::before {
+#home .shadow img {
+  display: block;
+  width: 100%;
+}
+#home .shadow::before {
   display: block;
   content: '';
   position: absolute;
   height: 100%;
+  -webkit-box-shadow: 0 0 0.2em 0.1em rgba(89,96,102,0.3) inset;
   box-shadow: 0 0 0.2em 0.1em rgba(89,96,102,0.3) inset;
-  width: 100%;
-}
-#home > article .shadow > img {
-  display: block;
   width: 100%;
 }
 strong {
@@ -381,10 +393,14 @@ strong {
 /* MEDIA 800px */
 @media (max-width: 800px) {
   footer #contact {
+    -webkit-background-size: 800px;
+    -moz-background-size: 800px;
     background-size: 800px;
   }
   footer #contact .email,
   footer #contact .email:hover {
+    -webkit-background-size: 120px;
+    -moz-background-size: 120px;
     background-size: 120px;
     height: 60px;
     width: 60px;
@@ -397,6 +413,8 @@ strong {
   }
   footer #contact .linkedin,
   footer #contact .linkedin:hover {
+    -webkit-background-size: 114px;
+    -moz-background-size: 114px;
     background-size: 114px;
     height: 51px;
     width: 51px;
@@ -409,6 +427,8 @@ strong {
   }
   footer #contact .twitter,
   footer #contact .twitter:hover {
+    -webkit-background-size: 114px;
+    -moz-background-size: 114px;
     background-size: 114px;
     height: 51px;
     width: 51px;
@@ -423,40 +443,42 @@ strong {
     margin-left: 6%;
     width: 50%;
   }
+  #aboutme .info h2 {
+    font-size: 2.2em;
+  }
   #aboutme .info p {
     font-size: 1em;
   }
-  #aboutme .photos {
+  #aboutme .info .photos {
     margin-left: 2%;
     width: 40%;
   }
-  #aboutme .skills {
+  #aboutme .info .skills {
     margin: 5% 0 0 1%;
     display: block;
     width: 100%;
   }
-  #aboutme .skills h3 {
+  #aboutme .info .skills h3 {
     margin-bottom: 0.7em;
   }
-  #aboutme .skills > li {
+  #aboutme .info .skills li {
     margin: 0 4% 3% 0;
     padding: 0;
     display: inline-block;
     width: 16%;
   }
-  #aboutme .skills > li:nth-child(5n+1) {
+  #aboutme .info .skills li:nth-child(5n+1) {
     margin-right: 0;
-  }
-  #home > article .info h2 {
-    font-size: 2.2em;
   }
 }
 /* MEDIA 640px */
 @media (max-width: 640px) {
   footer #contact {
+    -webkit-background-size: 700px;
+    -moz-background-size: 700px;
     background-size: 700px;
   }
-  footer #contact h2 {
+  footer h2 {
     font-size: 2.5em;
   }
   header h1 {
@@ -480,24 +502,25 @@ strong {
   #aboutme .info .textinfo {
     font-size: 1.2em;
   }
-  #aboutme .info p {
+  #aboutme .info .textinfo p {
     margin-bottom: 0.8em;
   }
   #aboutme .photos {
     margin: 9% 0 7%;
     padding: 0 7%;
   }
-  #aboutme .photos .shadow::before {
-    height: 94%;
-  }
   #aboutme .photos #photo01 {
     display: none;
   }
   #aboutme .photos #photo02 {
-    transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  #aboutme .photos .shadow::before {
+    height: 94%;
   }
   #aboutme .skills {
     margin: 10% 0 0 0;
@@ -507,17 +530,17 @@ strong {
     font-size: 2em;
     margin-bottom: 0.6em;
   }
-  #aboutme .skills > li {
+  #aboutme .skills li {
     width: 47%;
     margin-right: 5%;
   }
-  #aboutme .skills > li:nth-child(6) {
+  #aboutme .skills li:nth-child(6) {
     margin-right: 5% !important;
   }
-  #aboutme .skills > li:nth-child(odd) {
+  #aboutme .skills li:nth-child(odd) {
     margin-right: 0;
   }
-  #home > article .info h2 {
+  #home article .info h2 {
     font-size: 1.9em;
   }
 }
@@ -538,7 +561,7 @@ strong {
   header h2 {
     font-size: 1.3em;
   }
-  nav ul > li {
+  nav ul li {
     font-size: 1em;
     margin: 0 0.8em;
   }
@@ -554,7 +577,7 @@ strong {
   #aboutme .photos {
     margin-bottom: 8%;
   }
-  #aboutme .skills > li {
+  #aboutme .skills li {
     width: 46%;
   }
   #container {
@@ -563,23 +586,25 @@ strong {
   #home {
     padding: 0 2%;
   }
-  #home > article {
+  #home article {
     display: block;
     margin: 0 0 3% 0;
     width: 100%;
   }
-  #home > article .shadow,
-  #home > article .info {
+  #home article .shadow,
+  #home article .info {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: inline-block;
     vertical-align: top;
     width: 45%;
   }
-  #home > article .info h2 {
+  #home article .info h2 {
     font-size: 2.8em;
     text-align: left;
   }
-  #home > article .info p {
+  #home article .info p {
     display: block;
     margin: 0;
     padding-right: 2%;
@@ -604,7 +629,7 @@ strong {
   #aboutme .photos {
     margin-bottom: 8%;
   }
-  #home > article .info h2 {
+  #home article .info h2 {
     margin: 10% 0 2% 2%;
     font-size: 2.4em;
   }
