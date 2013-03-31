@@ -11,7 +11,7 @@
     	</div>
     </div>
     
-    <p>Copyright © <?php //echo $thisYear; ?> Imagin<span class="secondcolor">and</span></p>
+    <p>Copyright © <?php echo $thisYear; ?> Imagin<span class="secondcolor">and</span></p>
     
 </footer>
 
